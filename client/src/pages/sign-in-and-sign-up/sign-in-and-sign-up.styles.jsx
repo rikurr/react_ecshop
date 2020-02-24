@@ -5,12 +5,12 @@ export const SignInAndSignUpContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 30px auto;
+  padding-top: 30px;
   @media screen and (max-width: 800px) {
     flex-direction: column;
-    width: unset;
+    width: 95%;
     align-items: center;
-    padding: 1rem;
-    
+
       > *:first-child {
       margin-bottom: 50px;
     }

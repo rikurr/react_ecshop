@@ -1,7 +1,13 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
+  box-shadow: 2px 2px 4px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
   height: 70px;
   width: 100%;
   display: flex;
@@ -17,7 +23,7 @@ export const HeaderContainer = styled.div`
 export const LogoContainer = styled(Link)`
   height: 100%;
   width: 70px;
-  padding: 25px;
+  padding: 15px;
   @media screen and (max-width: 800px) {
     width: 50px;
     padding: 0;

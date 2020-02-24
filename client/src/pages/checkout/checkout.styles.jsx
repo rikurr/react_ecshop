@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const CheckoutPageContainer = styled.div`
+  padding-top: 3rem;
   width: 55%;
   min-height: 90vh;
   display: flex;
