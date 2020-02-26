@@ -1,7 +1,8 @@
-## React-EcShop-React+Redux+FireBase
+# Shopping  Clothing - React + Redux + Firebase application
 
 ## 概要
-Demoサイト: https://react-crwn.herokuapp.com/
+サイト: https://react-crwn.herokuapp.com/
+
 これは、React、Redux、Firebaseで構築されたシンプルなeコマースショッピングアプリケーションです。
 
 ＃# アプリケーション機能
@@ -11,7 +12,6 @@ Demoサイト: https://react-crwn.herokuapp.com/
 - 支払い機能(stripe)
 
 ## 使用技術
-- Node.js -ChromeのV8 JavaScriptエンジン上に構築されたJavaScriptランタイム
 - ReactJS-ユーザーインターフェイスを構築するためのJavaScriptライブラリ
 - Redux + React-Redux -JavaScriptアプリの状態の管理
 - Firebase -Firebase Googleが開発したモバイルおよびWebアプリケーション開発プラットフォーム
