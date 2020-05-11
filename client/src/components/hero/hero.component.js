@@ -10,10 +10,10 @@ const HeroWrapper = styled.div`
   background-repeat: no-repeat;
   margin-bottom: 100px;
   color: #03dac5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   >div{
     font-weight: bold;
   }
