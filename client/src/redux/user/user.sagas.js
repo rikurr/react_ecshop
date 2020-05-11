@@ -19,6 +19,7 @@ import {
 } from "./user.actions";
 
 export function* getSnapShotFromUserAuth(userAuth, additionalData) {
+  console.log(userAuth)
   try {
     const userRef = yield call(createUserProfileDocument, userAuth, additionalData);
     const userSnapshot = yield userRef.get();

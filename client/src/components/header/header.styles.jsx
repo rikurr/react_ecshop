@@ -2,17 +2,18 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.div`
-  box-shadow: 2px 2px 4px;
   position: fixed;
   z-index: 1;
-  top: 0;
   left: 0;
-  background-color: white;
-  height: 70px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 80px;
+
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  transition: 0.5s;
   @media screen and (max-width: 800px) {
     height: 60px;
     padding: 10px;
